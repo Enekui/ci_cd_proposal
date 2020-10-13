@@ -7,7 +7,7 @@
 
 * Dev upload code to Github
 * Jenkins/GitOps, etc. will start the build process including some testing
-* Images is build and pushed to Docker image repository
+* Images is build and pushed to Docker image registry
 * Image is then deployed to Kubernetes
 
 ## Now let's elaborate a little bit on why?
@@ -28,10 +28,43 @@
 > We will dive deeper into this as the project is being shaped.
 
 3. Should we use cloud or OnPrem?
-> Well, this is somenthing that I can't answer yes, since this needs to be reviewed with you
+> Well, this is somenthing that I can't answer right away, since this needs to be reviewed with you
 > but I would like to have this k8s cluster as a service, DigitalOcean could be a great canditate.
 > The thing is that if I am gonna be the only one managing and supporting this infra, I want to delegate
 > most of the plataform administration in some cloud provider.
+
+4. Why is not a monitoring system in the diagram?
+> Well, since this needs to be review with you, I will add a more detailed 
+> architecture after this very talk.
+> We need to agreed if we want to use a fully opensourced solution or a paid solution with good extra features.
+> I will come back to this point as I get more inside of the applications.
+
+5. How much time can take to have this up & running.
+> This a good and critical point, but it will depend on the bureaucracy of the company.
+> I could have something like this ready in a couple of weeks, if no unexpected issues come around.
+
+## In a nutshell
+
+* Define all infra as code
+* Perform testing
+* Deploy the infra
+* Automate the application deployment
+* Perform testing
+* Deploy the application to k8s
+* Setup monitoring solution
+* Sharpen alerting and monitoring system
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
