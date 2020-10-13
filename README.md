@@ -54,6 +54,18 @@
 * Setup monitoring solution
 * Sharpen alerting and monitoring system
 
+## What I need from you?
+
+> The good thing wit kubernetes is that it can run almost anything, no matter which application, language, etc.
+> But in order to get the most of this architecture, I will need to have more inside of this application.
+
+* Application performance requerements.
+* Networking architecture of the microservices.
+* Storage requirements
+* Security concerns
+* Microservices isolation
+* And a few more points that will come along as I get more inside of the app
+
 
 
 
