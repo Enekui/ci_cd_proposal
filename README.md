@@ -1,7 +1,4 @@
-# Basic code for a sample CI/CD solutino for a basic Ruby microservices-application.
+### Basic code for a sample CI/CD solutino for a basic Ruby microservices-application.
 
-#
-#
-
-> This would be the basic containers infra
+### Infra model
 ![infra model](simple_ci_cd.png)
