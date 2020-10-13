@@ -1,1 +1,1 @@
-# ci_cd_proporsal
+# ci_cd_proposal
